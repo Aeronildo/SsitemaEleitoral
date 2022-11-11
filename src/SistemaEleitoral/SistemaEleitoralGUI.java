@@ -31,20 +31,20 @@ public class SistemaEleitoralGUI extends JFrame implements ActionListener {
         setResizable(false);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 
-        //Buttons
-        votebutton.setBounds(150, 250, 200, 30);
+         //Buttons
+        votebutton.setBounds(150, 200, 200, 30);
         add(votebutton);
         votebutton.addActionListener(this);
-        getDatabutton.setBounds(150, 200, 200, 30);
+        getDatabutton.setBounds(150, 150, 200, 30);
         add(getDatabutton);
         getDatabutton.addActionListener(this);
-        countVotebutton.setBounds(150, 50, 200, 30);
+        countVotebutton.setBounds(150, 250, 200, 30);
         add(countVotebutton);
         countVotebutton.addActionListener(this);
-        registerCandidatebutton.setBounds(150, 100, 200, 30);
+        registerCandidatebutton.setBounds(150, 50, 200, 30);
         add(registerCandidatebutton);
         registerCandidatebutton.addActionListener(this);
-        registerVoterbutton.setBounds(150, 150, 200, 30);
+        registerVoterbutton.setBounds(150, 100, 200, 30);
         add(registerVoterbutton);
         registerVoterbutton.addActionListener(this);
         //text configs
