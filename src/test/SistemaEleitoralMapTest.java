@@ -41,8 +41,8 @@ class SistemaEleitoralMapTest {
 
     @Test
     public void testCountVote() throws TituloInexistenteException{
-        boolean candidatoA = sistema.cadastraCandidato("X", 56, Partido.PARTIDO1);
-        boolean eleitorA = sistema.cadastraEleitor("Iranildo", "058.232.215-1");
+        boolean cadastroCandidato = sistema.cadastraCandidato("X", 56, Partido.PARTIDO1);
+        boolean cadastroEleitor = sistema.cadastraEleitor("Iranildo", "058.232.215-1");
         try {
             sistema.votar("058.232.215-1", 56);
             int contadorVotos = sistema.contarVotosParaCandidato(56);
